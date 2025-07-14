@@ -11,92 +11,100 @@
 <body>
     <div class="container">
         <div class="box-1">
-            <img src="../assets/levi.jpg" alt="">
-            <h1>David Huanca Ledezma</h1>
-            <h2>DavidHL</h2>
-            <section>
-                <div class="buttons">
+            <header>
+                <div class="avatar">
+                    <img src="../assets/levi.jpg" alt="">
                 </div>
+                <div class="name">
+                    <h1>David Huanca Ledezma</h1>
+                    <h2>DavidHL</h2>
+                </div>
+            </header>
+            <section class="info">
                 <p>System Enginner Student</p>
                 <ul>
-                    <li><i class="fa fa-users"></i>3Followers • 4 Following</li>
-                    <li><i class="far fa-star"></i>3</li>
-                    <li><i class="fa fa-location-dot"></i>Bolivia</li>
-                    <li><i class="fa fa-paperclip"></i>davidhuancaledezma@gmail.com</li>
-                    <li><i class="fab fa-twitter"></i>@DavidHL</li>
+                    <li><i class="fa fa-users"></i> 3 Followers • 4 Following</li>
+                    <li><i class="far fa-star"></i> 3</li>
+                    <li><i class="fa fa-location-dot"></i> Bolivia</li>
+                    <li><i class="fab fa-linkedin"></i> david-huanca-ledezma</li>
+                    <li><i class="fab fa-twitter"></i> @DavidHL</li>
                 </ul>
+                <button class="btn-follow">Follow</button>
             </section>
-
+            <hr>
+            <section class="achievements">
+                <img src="../assets/QuickDraw.png" alt="image QuickDraw">
+                <img src="../assets/PullShark.png" alt="image PullShark">
+                <img src="../assets/StarStruck.png" alt="image StarStruck">
+                <p>Block or Report</p>
+            </section>
         </div>
         <div class="box-2">
-            
+            <h2 class="title">Repositories</h2>    
             <header>
-                <h2>Repositories</h2>    
-                <input type="text">
-                <select name="" id="">
+                
+                <input type="text" placeholder="Search repositories">
+                <select name="" id="" class="select-type">
                     <option value="">Type</option>
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
+                    <option value="Source">Source</option>
+                    <option value="Fork">Forks</option>
+                    <option value="Archived">Archived</option>
                 </select>
                 <select name="" id="">
                     <option value="">Language</option>
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
+                    <option value="All">All</option>
+                    <option value="JavaScript">JavaScript</option>
+                    <option value="TypeScript">TypeScript</option>
                 </select>
                 <select name="" id="">
                     <option value="">Sort</option>
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
+                    <option value="Name">Name</option>
+                    <option value="Stars">Stars</option>
                 </select>
             </header>
             <main>
-                
-                <section>
-                    <div>
-                        <h2><a href="">Proyecto</a></h2>
-                        <p>Descripcion</p>
+                <section class="repository">
+                    <div class="description-repository">
+                        <h2><a href="">GitList</a> <span class="state">Public</span> </h2>
+                        <p>This is a repository for practice my abilities with html and css.</p>
                         <small>
-                            <span class="violet"></span> python
+                            <span class="violet"></span> CSS
                             <i class="far fa-star"></i> 1
                             <i class="fa fa-code-branch"></i> 20 Updated 2 days ago
                         </small>
                     </div>
                     <div>
-                        <button><i class="far fa-star"></i>Start</button>
+                        <button class="btn-star"><i class="far fa-star"></i>Star</button>
                     </div>
                 </section>
-                <section>
-                    <div>
-                        <h2><a href="">Proyecto</a></h2>
+                <section class="repository">
+                    <div class="description-repository">
+                        <h2><a href="">Restaurant</a> <span class="state">Public</span> </h2>
                         <p>Descripcion</p>
                         <small>
-                            <span class="violet"></span> python
+                            <span class="yellow"></span> JavaScript
+                            <i class="far fa-star"></i> 1 
+                            <i class="fa fa-code-branch"></i> 20 Updated 3 days ago
+                        </small>
+                    </div>
+                    <div>
+                        <button class="btn-star"><i class="far fa-star"></i>Star</button>
+                    </div>
+                </section>
+                <section class="repository">
+                    <div class="description-repository">
+                        <h2><a href="">Subastas</a> <span class="state">Public</span> </h2>
+                        <p>Descripcion</p>
+                        <small>
+                            <span class="blue"></span> TypeScript
                             <i class="far fa-star"></i> 1
                             <i class="fa fa-code-branch"></i> 20 Updated 2 days ago
                         </small>
                     </div>
                     <div>
-                        <button><i class="far fa-star"></i>Start</button>
+                        <button class="btn-star"><i class="far fa-star"></i>Star</button>
                     </div>
                 </section>
-                <section>
-                    <div>
-                        <h2><a href="">Proyecto</a></h2>
-                        <p>Descripcion</p>
-                        <small>
-                            <span class="violet"></span> python
-                            <i class="far fa-star"></i> 1
-                            <i class="fa fa-code-branch"></i> 20 Updated 2 days ago
-                        </small>
-                    </div>
-                    <div>
-                        <button><i class="far fa-star"></i>Start</button>
-                    </div>
-                </section>
-
             </main>
         </div>
     </div>
