@@ -1,0 +1,285 @@
+body {
+    background-color: rgb(11, 14, 20);
+}
+.box-1 header {
+    display: flex;
+    align-items: center;
+}
+
+.box-1 header .avatar, .name {
+    margin: 10px;
+}
+
+.avatar img {
+    width: 60px;
+    height: 60px;
+    border: 2px solid gray;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.name {
+    font-size: 10px;
+}
+
+.name h1, h2 {
+    margin: 4px;
+    color: white;
+}
+
+.name h2 {
+    opacity: 0.6;
+}
+
+.info {
+    margin: 10px;
+    color: white;
+}
+
+.info p {
+    margin: 5px;
+}
+
+.info ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+.info ul li i {
+    opacity: 0.6;
+}
+.info ul li {
+    margin: 5px;
+}
+
+.followers:hover {
+    color: #2F81F7;
+}
+
+.following:hover {
+    color: #2F81F7;
+}
+
+.btn-follow {
+    display: block;
+    margin: auto;
+    width: 95%;
+    padding: 4px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    background-color: #21262D;
+    color: #C9D1D9;
+    cursor: pointer;
+}
+
+.box-1 hr {
+    width: 90%;
+    border: none;
+    height: 1px;
+    background-color: gray;
+}
+
+.achievements {
+    margin: 10px;
+    color: gray;
+}
+
+.achievements h2 {
+    font-size: 18px;
+}
+
+.achievements img {
+    width: 70px;
+    height: 70px;
+    margin: 0px;
+}
+
+.title {
+    margin: 10px;
+}
+
+.box-2 header {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    
+}
+
+.box-2 header input{
+    width: 35%;
+    background-color: rgb(11, 14, 20);
+    color: #C9D1D9;
+    border: 1px solid gray;
+    padding: 5px 0px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.box-2 header input:hover {
+    border: 1px solid #2F81F7;
+}
+
+.box-2 header .select-type {
+    width: 55px;
+}
+
+.box-2 header select {
+    background-color: #21262D;
+    border: 1px solid gray;
+    color: #C9D1D9;
+    border-radius: 5px;
+    padding: 5px 0px;
+    outline: none;
+    cursor: pointer;
+}
+
+.box-2 header select:hover {
+    border: 1px solid #2F81F7;
+}
+
+.repository {
+    background-color: rgb(15, 19, 27);
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    height: 140px;
+    
+}
+
+.repository:hover {
+    background-color: rgb(23, 29, 41);
+}
+
+.description-repository {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.description-repository h2 a {
+    color: #2F81F7;
+    text-decoration: none;
+}
+
+.description-repository h2 a:hover {
+    text-decoration: underline;
+}
+
+.description-repository p, small {
+    color: gray;
+}
+
+.state {
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 2px 5px;
+    font-size: 13px;
+    opacity: 0.6;
+}
+
+.repository div {
+    margin: 10px;
+}
+
+.violet {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: purple;
+}
+
+.yellow {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: yellow; 
+}
+
+.blue {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: blue;  
+}
+
+.btn-star {
+    width: 60px;
+    margin-top: 50%;
+    background-color: #21262D;
+    border: 1px solid gray;
+    color: #C9D1D9;
+    border-radius: 5px;
+    padding: 4px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.btn-star i {
+    opacity: 0.6;
+}
+
+@media screen and (min-width: 480px) {
+    .avatar img {
+        width: 100px;
+        height: 100px;
+    }
+    .box-2 header select {
+        width: 25%;
+    }
+}
+
+@media screen and (min-width: 720px) {
+    .container {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .avatar img {
+        width: 220px;
+        height: 220px;
+    }
+
+    .box-1 header {
+        display: flex;
+        flex-direction: column;  
+        align-items: start;
+        
+    }
+
+    .name {
+        margin: 0px 10px;
+    }
+
+    .box-2 {
+        min-width: 65%;
+    }
+
+    .box-2 header input{
+        width: 40%;
+    }
+
+    .box-2 header select {
+        width: 22%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .avatar img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .box-2 {
+        min-width: 70%;
+    }
+
+    .box-2 header select {
+        width: 25%;
+    }
+}
